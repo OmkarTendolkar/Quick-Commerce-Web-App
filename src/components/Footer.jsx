@@ -31,7 +31,7 @@ function Footer() {
          { <div className='flex items-center justify-between'>
 
             <div>
-              <img className='h-8' src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/9.1.1/images/logo.svg" alt="logo-img" />
+              <img className='h-8' src="" alt="logo-img" />
               <div className='mt-4 flex h-5 space-x-6'>
                 <img  src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/9.1.1/images/social-media/instagram.svg" alt="instagram-logo" />
                 <img src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/9.1.1/images/social-media/twitter.svg" alt="twitter-logo" />

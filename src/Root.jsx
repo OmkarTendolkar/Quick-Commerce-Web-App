@@ -4,13 +4,13 @@ import { Outlet } from "react-router-dom"
 import { scrollToTop as ScrollTop } from "./assets/scrollToTop.js"
 
 
-function Root() {
+function Root({data}) {
 
   return (
     <>
       <ScrollTop />
       
-      <Header />
+      <Header data={data} />
       <Outlet />
       <Footer />
     </>

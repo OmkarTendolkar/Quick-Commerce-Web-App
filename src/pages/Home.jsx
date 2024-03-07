@@ -1,12 +1,12 @@
 import React from 'react'
 import Card from '../components/Card.jsx';
 import { Link } from 'react-router-dom';
-import { products } from '../assets/products.js';
+import { data } from '../assets/data.js';
 
 function Home() {
 
   return (
-    <div className='py-20 flex justify-center'>
+    <div className='py-28 flex justify-center'>
       <div className='flex flex-col items-center w-[1300px] border-black border'>
         <Link to="">
           <img className='p-4 overflow-hidden rounded-3xl' src="images/adv-banner.webp" alt="adv-banner" />
@@ -17,7 +17,7 @@ function Home() {
         </div> */}
 
         <div className='grid grid-cols-[240px_240px_240px_240px_240px]'>
-          {products.map((product) => {
+          {data.map((product) => {
             return <Card key={product.id} product={product} />
           })}
         </div>

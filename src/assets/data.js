@@ -1,10 +1,10 @@
 import { v4 as uuidv4 } from 'uuid';
 
-export const  products = [
+export const  data = [
   {
     id: uuidv4(),
     name: 'Sensodyne Sensitive Toothbrush with Soft Round Bristles',
-    category: 'Personal Care',
+    category: 'personal-care',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/151920da-a71a-4b50-b337-ef90cc55f55d.jpeg',
     variant: '1 piece',
     price: 62,
@@ -21,7 +21,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Lay\'s American Cream & Onion Potato Chips',
-    category: 'Packaged Food',
+    category: 'packaged-food',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/5f0841c2-ad9e-48c3-8177-ef0148f5a74a.jpeg',
     variant: '50g',
     price: 20,
@@ -38,7 +38,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Tata Salt',
-    category: 'Grocery',
+    category: 'grocery',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/114fb017-cd72-4210-b3dc-1f4bca3de5c5.jpeg',
     variant: '1 kg',
     price: 28,
@@ -55,7 +55,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Parle-G Original Gluco Biscuits',
-    category: 'Packaged Food',
+    category: 'packaged-food',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/acbec909-f3bd-4006-af4f-7c0071d0579e.jpeg',
     variant: '250 g',
     price: 25,
@@ -72,7 +72,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Ching\'s Secret Dark Soy Sauce Bottle',
-    category: 'Packaged Food',
+    category: 'packaged-food',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/7681cc7f-bac3-432f-b1aa-a5e171041dda.jpeg',
     variant: '210 g',
     price: 49,
@@ -89,7 +89,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Duracell Ultra Alkaline AAA Battery (Pack of 4)',
-    category: 'Appliances',
+    category: 'electronic-appliances',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/c4685d36-c7ee-4e33-8d43-d2f0aac9c3b7.jpeg',
     variant: 'Pack of 4',
     price: 175,
@@ -106,7 +106,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Surf Excel Easy Wash Detergent Powder',
-    category: 'Home & Kitchen',
+    category: 'home-and-kitchen',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/ff259b35-49d4-42f3-89e5-ee75b48ac225.jpeg',
     variant: '1.5 kg',
     price: 223,
@@ -123,7 +123,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Snickers Peanut Chocolate Bar',
-    category: 'Packaged Food',
+    category: 'packaged-food',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1348-888,pr-true,f-auto,q-80/cms/product_variant/260a0d72-a518-4739-b2dd-e62a13f75245.png',
     variant: '22 g',
     price: 20,
@@ -140,7 +140,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Comfort After Wash Morning Fresh Fabric Conditioner',
-    category: 'Home & Kitchen',
+    category: 'home-and-kitchen',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/50fb8a26-7d0f-48f0-acf2-e3f52dc72806.jpeg',
     variant: '860 ml',
     price: 205,
@@ -157,7 +157,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Maaza Mango Fruit Drink',
-    category: 'Dairy & Beverages',
+    category: 'dairy-and-beverages',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/96072174-3258-4f73-bf41-aacf27d9fb8d.jpeg',
     variant: '600ml',
     price: 42,
@@ -174,7 +174,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Tide Jasmine & Rose Detergent Powder',
-    category: 'Home & Kitchen',
+    category: 'home-and-kitchen',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1001-1001,pr-true,f-auto,q-80/cms/product_variant/7bedd301-6e4b-48d2-a3cd-fa636b9746ad.jpeg',
     variant: '1 kg',
     price: 144,
@@ -191,7 +191,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Gowardhan Fresh Paneer Block',
-    category: 'Dairy & Beverages',
+    category: 'dairy-and-beverages',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/9f9ba76b-b9fd-456c-ab2b-686deb62a825.jpeg',
     variant: '200 g',
     price: 92,
@@ -208,7 +208,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Colgate MaxFresh Toothpaste, Red Gel Paste with Menthol for Super Fresh Breath (Spicy Fresh)',
-    category: 'Personal Care',
+    category: 'personal-care',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1500-868,pr-true,f-auto,q-80/cms/product_variant/c0086de5-5d21-4cb1-8054-698e81f95bfe.jpeg',
     variant: '300g (150g x 2)',
     price: 183,
@@ -225,7 +225,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Dettol Antiseptic Liquid for First Aid, Surface Disinfection and Personal Hygiene',
-    category: 'Home & Kitchen',
+    category: 'home-and-kitchen',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/04467f07-b162-48fc-87c3-9afe289c9ff7.jpeg',
     variant: '250 ml',
     price: 140,
@@ -242,7 +242,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'MAGGI Cuppa Masala Instant Noodles',
-    category: 'Packaged Food',
+    category: 'packaged-food',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/704c2049-512b-403d-9407-484507c143d0.jpeg',
     variant: '70.5 g',
     price: 50,
@@ -259,7 +259,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Echo Dot (3Rd Gen) - #1 Smart Speaker Brand In India With Alexa (Black)',
-    category: 'Appliances',
+    category: 'electronic-appliances',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5feb874d-a420-4e8a-8c89-aba0b062acb6.jpeg',
     variant: '1 piece',
     price: 3500,
@@ -276,7 +276,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Wow Skin Science Onion Red Seed Oil Shampoo',
-    category: 'Personal Care',
+    category: 'personal-care',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/01d2f5e3-289e-462b-9a17-ad21a8b1c05c.jpeg',
     variant: '300 ml',
     price: 355,
@@ -293,7 +293,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Amul Butter - Pasteurised',
-    category: 'Dairy & Beverages',
+    category: 'dairy-and-beverages',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/e9526a7d-9688-4e92-886f-cc861eb70100.jpeg',
     variant: '500 g',
     price: 279,
@@ -310,7 +310,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Britannia Multigrain Bread',
-    category: 'Packaged Food',
+    category: 'packaged-food',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/61e90cd1-70b6-4484-b03d-c05ca84988c6.jpeg',
     variant: '450gm',
     price: 60,
@@ -327,7 +327,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Dettol Skincare Hand Wash - Moisturizing Refill Handwash',
-    category: 'Personal Care',
+    category: 'personal-care',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/ce010b04-6c4b-45e1-8bf0-5732af7353c1.jpeg',
     variant: '675 ml',
     price: 93,
@@ -344,7 +344,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Tata Sampann, High in Fibre Poha(Thick)',
-    category: 'Grocery',
+    category: 'grocery',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/5033c59f-056a-4335-8bd4-ff60cb0285fa.jpeg',
     variant: '500 g',
     price: 45,
@@ -361,7 +361,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'India Gate Super Basmati Rice',
-    category: 'Grocery',
+    category: 'grocery',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/01a701bb-3792-4031-832e-d99f428bdb85.jpeg',
     variant: '5 kg',
     price: 858,
@@ -378,7 +378,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Daawat Rozana Basmati Rice Gold',
-    category: 'Grocery',
+    category: 'grocery',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/3b32a1e1-fd19-4b0c-8f78-5c53492c0300.jpeg',
     variant: '1 kg',
     price: 105,
@@ -395,7 +395,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Kurkure Yummy PuffCorn Yummy Cheese Chips',
-    category: 'Packaged Food',
+    category: 'packaged-food',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/c249f351-5d5a-4f9a-99d6-4a3614f52d29.jpeg',
     variant: '55 g',
     price: 20,
@@ -412,7 +412,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Gebi Sparkle Plus Extendable Handle/ Stick Rod with Microfiber Refill for Spin Mop',
-    category: 'Home & Kitchen',
+    category: 'home-utility-and-organiser',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/a4d20102-ed62-428e-9870-b4534f319691.jpeg',
     variant: '1 piece',
     price: 330,
@@ -429,7 +429,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Scotch Brite Scrub Pad(Pack of 5)',
-    category: 'Home & Kitchen',
+    category: 'home-and-kitchen',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/cd71a20d-69ea-41bf-a279-d1c8ca598c55.jpeg',
     variant: '1 Pack (5 Pieces)',
     price: 70,
@@ -446,7 +446,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Nescafe Classic Dawn Jar',
-    category: 'Dairy & Beverages',
+    category: 'dairy-and-beverages',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/cc0d5a94-7610-46fa-88d9-bdcf25f0b978.jpeg',
     variant: '45 g',
     price: 180,
@@ -463,7 +463,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Bisleri Packaged Drinking Water Jar',
-    category: 'Dairy & Beverages',
+    category: 'dairy-and-beverages',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/2223c704-2c39-49c6-be5b-36ef6a1c9812.jpeg',
     variant: '10 L',
     price: 110,
@@ -480,7 +480,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Ferrero Nutella Hazelnut Spread',
-    category: 'Packaged Food',
+    category: 'packaged-food',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/5a3ace9f-d88e-4b25-b51a-f6411f8e5fdf.jpeg',
     variant: '180 g',
     price: 220,
@@ -497,7 +497,7 @@ export const  products = [
   {
     id: uuidv4(),
     name: 'Britannia Pav',
-    category: 'Packaged Food',
+    category: 'packaged-food',
     image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/ea7ba78a-3ec2-4833-943c-fbe0a498e403.jpeg',
     variant: '250 g',
     price: 22,
@@ -509,6 +509,159 @@ export const  products = [
     manufacturer : {
       name: 'Britannia Industries Limited',
       address: 'Bangalore - Prestige Shantiniketan, Tower C, The Business Precinct, 16th & 17th Floor, Whitefield Main Road, Mahadevapura Post, Bangalore - 560 048.',
+    }
+  },
+  {
+    id: uuidv4(),
+    name: 'Philips Bt3101/15 Trimmer 45 Min Runtime 10 Length Settings (Black White)',
+    category: 'electronic-appliances',
+    image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/833bb72c-dda3-4b1e-a711-7ed0cc5a8f1f.jpeg',
+    variant: '1 piece',
+    price: 1046,
+    marketPrice: 1495,
+    description: '',
+    origin: 'India',
+    shelfLife: '24 months',
+    ingredients: '',
+    manufacturer : {
+      name: 'Philips',
+      address: '',
+    }
+  },
+  {
+    id: uuidv4(),
+    name: 'Fortune Sunlite Refined Sunflower Oil (Jar)',
+    category: 'grocery',
+    image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/717d7a97-85c2-4d0d-b2cf-0e4a0af3b947.jpeg',
+    variant: '5L',
+    price: 641,
+    marketPrice: 730,
+    description: 'Fortune Sunflower Oil is a light, healthy and nutritious cooking oil. It is rich in vitamins andcontains polyunsaturated fatty acids which makes food easy to digest.',
+    origin: 'India',
+    shelfLife: '12 months',
+    ingredients: '',
+    manufacturer : {
+      name: 'Adani Wilmar Limited',
+      address: 'Adani Wilmar Limited, Adani Corporate House, Shantigram, Near Vaishnodevi Circle, S G Highway, Ahmedabad-382421, Gujarat, India.',
+    }
+  },
+  {
+    id: uuidv4(),
+    name: 'Nivea Body Milk Lotion for Very Dry Skin',
+    category: 'personal-care',
+    image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/22126525-b10a-49bc-be82-689124aa41fb.jpeg',
+    variant: '400 ml',
+    price: 345,
+    marketPrice: 460,
+    description: 'Nivea Body Milk comes with rich and creamy formula with 2 times more almond oil deeply moisturizes and softens your dry skin. It gives you deep moisturization for up to 48 hours after a single application.',
+    origin: 'India',
+    shelfLife: '36 months',
+    ingredients: '',
+    manufacturer : {
+      name: 'NIVEA India Private Limited',
+      address: 'NIVEA India Private Limited, 4th Floor, A Wing, Art Guild House, Phoenix Market City, Kurla West, Mumbai, Maharashtra 400070',
+    }
+  },
+  {
+    id: uuidv4(),
+    name: 'BoAt Airdopes 131/138 with upto 15 Hours Playback, 13mm Drivers and IWP Technology Bluetooth Headset (Active Black, True Wireless)',
+    category: 'electronic-appliances',
+    image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/e8bd9ee4-7777-4cd5-bad7-801ac2bdbc5b.jpeg',
+    variant: '1 piece',
+    price: 1699,
+    marketPrice: 2990,
+    description: 'customer care-022-69854100, https://support.boat-lifestyle.com/',
+    origin: 'India',
+    shelfLife: '36 months',
+    ingredients: '',
+    manufacturer : {
+      name: 'Boat',
+      address: '',
+    }
+  },
+  {
+    id: uuidv4(),
+    name: 'Parle Hide & Seek Chocolate Chip Cookies',
+    category: 'packaged-food',
+    image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/ae2cfd34-c7f1-4bf1-b2f6-5517f3c9bbe8.jpeg',
+    variant: '400 g',
+    price: 118,
+    marketPrice: 150,
+    description: '',
+    origin: 'India',
+    shelfLife: '7 months',
+    ingredients: '',
+    manufacturer : {
+      name: 'Parle Products Pvt. Ltd',
+      address: 'Parle Products Pvt. Ltd, V.S. Khandekar Marg, Vile Parle East Mumbai - 400057, Maharashtra.',
+    }
+  },
+  {
+    id: uuidv4(),
+    name: 'Eveready Base B22 9-Watt LED Bulb 1 pc X 3 Combo',
+    category: 'electronic-appliances',
+    image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1500-1500,pr-true,f-auto,q-80/inventory/product/d676cc9c-32f0-4861-97ef-e970e4822aa5-168.jpg',
+    variant: '1 pcs x 3',
+    price: 207,
+    marketPrice: 450,
+    description: 'Eveready Base B22 9-Watt LED Bulb 1 pc X 3 Combo',
+    origin: '',
+    shelfLife: '',
+    ingredients: '',
+    manufacturer : {
+      name: '',
+      address: '',
+    }
+  },
+  /* {
+    id: uuidv4(),
+    name: '',
+    category: '',
+    image: '',
+    variant: '',
+    price: ,
+    marketPrice: ,
+    description: '',
+    origin: '',
+    shelfLife: '',
+    ingredients: '',
+    manufacturer : {
+      name: '',
+      address: '',
+    }
+  }, */
+  {
+    id: uuidv4(),
+    name: 'Pringles Sour Cream And Onion Potato Crisps',
+    category: 'packaged-food',
+    image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-700-700,pr-true,f-auto,q-80/inventory/product/3974346d-33ac-4c68-acef-94c25a62d264-1YO9Bg3ppUdk6xs043kJm1U0WLO1gjFxH.jpeg',
+    variant: '107 g',
+    price: 105,
+    marketPrice: 115,
+    description: 'Relish the classic, Pringles Potato Chips in its Sour Cream & Onion flavour-the perfect snack, loved by everyone for its delicious taste and crispy texture. UNIQUELY SHAPED-Pringles is known for its unique shape, perfectly seasoned from edge to edge, for full savoury goodness in each bite! It is light and crispy and comes in a can. ENJOY ON MANY OCCASIONS-Pop a can to add some crunch to lunch sandwich, indulge in a midnight munch with your favourite drink, stay energized as you game-grease-free, pack it in a picnic, it is always more fun with Pringles Potato Chips! STACKABLE AND CONVENIENT-Everyones favourite stackable chips that are kept unbroken and sealed air-tight with a freshness that pops! You can even stack em up to innovate your own flavour combo. SOUR CREAM & ONION FLAVOUR-Chips flavoured with tangy sour cream and zesty onion, a classic combination that nature intended and man perfected. Unlike other potato chips, Pringles Potato Chips are made from a mix of potato, rice flour, corn flour, and wheat starch.',
+    origin: 'India',
+    shelfLife: '12 months',
+    ingredients: 'Dried Potato, Edible Oil',
+    manufacturer : {
+      name: 'Kellogg\'s India Pvt. Ltd',
+      address: 'Kellogg\'s India Pvt. Ltd, 1001-1002, 10th Floor, Hiranandani Knowledge Park Powai Mumbai, Maharashtra, 400076.',
+    }
+  },
+  {
+    id: uuidv4(),
+    name: 'Amul Gold Full Cream Fresh Milk (Pouch)',
+    category: 'grocery',
+    image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-741-955,pr-true,f-auto,q-80/cms/product_variant/f1e793c7-67de-478a-99d8-377d266edf33.png',
+    variant: '1 L',
+    price: 55,
+    marketPrice: 66,
+    description: 'Pasteurised milk Amul milk meets the PFA standards for the respective type of milk.Amul Milk is the most hygienic liquid milk available in the market.It is pasteurised in state-of-the-art processing plants and pouch-packed to make it conveniently available to consumers. To be consumed the same day.',
+    origin: 'India',
+    shelfLife: '3 days',
+    ingredients: 'Standardized Milk, Vitamin A&D',
+    manufacturer : {
+      name: 'Gujarat Co-Operative Milk Marketing Federation',
+      address: 'Gujarat Co-Operative Milk Marketing Federation, Po Box 10, Amul Dairy Road, Anand 388 001, Gujarat, India.',
     }
   },
 ]

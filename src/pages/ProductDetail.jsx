@@ -1,29 +1,29 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { products } from '../assets/products';
+import { data } from '../assets/data.js';
 import Card from '../components/Card';
 
 
 function ProductDetail() {
   const {id} = useParams();
   const [product, setProduct] = useState({});
-  const [relatedItems, setRelatedItems] = useState([])
+  const [relatedItems, setRelatedItems] = useState(data)
 
   useEffect(() => {
-    const filterItem =  products.filter((product) => (product.id === id));
+    const filterItem =  data.filter((product) => (product.id === id));
     setProduct(filterItem[0]);
-    setRelatedItems(products.filter((p) => ( (p.category === product.category) && (p.id !== product.id) )));
+    const related = data.filter((p) => ( (p.category === product.category) && (p.id !== product.id) ));
+    setRelatedItems([...related]);
   },[id, relatedItems])
   
-  console.log('Item' + product);
   return (
-  <div className='py-20 flex justify-center'>
+  <div className='py-24 flex justify-center'>
     <div>
       <div className='flex max-w-[1200px] space-x-8'>
 
         <div className='w-[600px] flex flex-col justify-center p-6'>
           <div className='mb-10 px-[140px] py-[60px] border rounded-lg'>
-            <img className='h-60 object-contain' src={product.image} alt="" />
+            <img className='h-60 object-contain' src={product.image} alt="sd" />
           </div>
 
           <div>
@@ -103,7 +103,7 @@ function ProductDetail() {
       <div className='mt-10 mb-5 text-xl font-semibold'>Related Products</div>
       <div className='grid grid-cols-[240px_240px_240px_240px_240px]'>
         {relatedItems.map((product) => {
-          return <Card product={product}/>
+          return <Card key={product.id} product={product}/>
         })}
       </div>
     </div>

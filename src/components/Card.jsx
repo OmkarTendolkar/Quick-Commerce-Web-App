@@ -11,8 +11,8 @@ function Card({product}) {
               <div className='text-center text-sm'>{product.name}</div>
             </div>
             <div className='flex text-[13px] space-x-4 my-5'>
-              <div>MRP : <span>&#8377;30</span></div>
-              <div>Dmart : <span>&#8377;20</span></div>
+              <div>MRP : <span>&#8377;{product.price}</span></div>
+              <div>Dmart : <span>&#8377;{product.marketPrice}</span></div>
               <div>&#8377;10 OFF</div>
             </div>
           </Link>
