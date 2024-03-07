@@ -1,7 +1,14 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Header() {
+  const [query, setQuery] = useState('')
+  const navigate = useNavigate();
+
+  const handleInputChange = (e) => {
+    setQuery(e.target.value);
+  }
+
   return (
     <header>
       <div className='bg-slate-50  border-b-[1px]   mb-1 fixed top-0 left-0 right-0'>
@@ -18,8 +25,8 @@ function Header() {
           </div>
             
           <div className='flex w-[800px]'>
-            <input className='flex-1 h-10 border p-4 rounded shadow-inner' type="search" name="" id="" placeholder='What you need ?'/>
-            <button className='h-10 bg-purple-600 text-white px-4 text-sm font-medium rounded' type="button">SEARCH</button>
+            <input className='flex-1 h-10 border p-4 rounded shadow-inner' type="search" value={query} placeholder='What you need ?' onChange={handleInputChange}/>
+            <button className='h-10 bg-purple-600 text-white px-4 text-sm font-medium flex items-center rounded' type="button" onClick={() => (query && navigate(`search/${query}`))}>SEARCH</button>
           </div>
           
           <div className='ml-5 mr-10 flex items-center space-x-10'>

@@ -8,6 +8,7 @@ import { data } from './assets/data.js'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import FilterProduct from './pages/FilterProduct.jsx'
+import SearchProducts from './pages/SearchProducts.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: 'category/:category',
         element: <FilterProduct />
+      },
+      {
+        path: 'search/:query',
+        element: <SearchProducts />
       }
     ],
   },
