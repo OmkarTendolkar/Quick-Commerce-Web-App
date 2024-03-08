@@ -1,7 +1,23 @@
-import { Link} from "react-router-dom"
+import { useContext } from "react"
+import { Link } from "react-router-dom"
+import { CartContext } from "../context/CartContext"
+import { v4 as uuidv4 } from 'uuid';
 
 
 function Card({product}) {
+  const {cartQuantity, setCartQuantity, cartProducts, setCartProducts} = useContext(CartContext);
+
+  const handleAddToCart = () => {
+    const addItem = {
+      key: uuidv4(),
+      item: product,
+    }
+    setCartProducts([...cartProducts, addItem])
+    console.log(cartProducts);
+    
+    setCartQuantity(cartQuantity + 1)
+  }
+
   return (
     <>
         <div className='flex flex-col justify-between p-4 border'>
@@ -17,7 +33,7 @@ function Card({product}) {
             </div>
           </Link>
           <div className='flex'>
-            <button className='flex-1 bg-purple-500 text-white py-[5px] rounded-lg '>Add to Cart</button>
+            <button onClick={() => handleAddToCart()} className='flex-1 bg-purple-500 text-white py-[5px] rounded-lg '>Add to Cart</button>
           </div>
         </div>
       
