@@ -1,11 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { data } from '../assets/data.js';
 import Card from '../components/Card';
+import { CartContext } from '../context/CartContext.js';
+import { v4 as uuidv4 } from 'uuid';
 
 
 function ProductDetail() {
   const {id} = useParams();
+  const {cartQuantity, setCartQuantity, cartProducts, setCartProducts} = useContext(CartContext);
   const [product, setProduct] = useState({});
   const [relatedItems, setRelatedItems] = useState(data)
 
@@ -14,7 +17,19 @@ function ProductDetail() {
     setProduct(filterItem[0]);
     const related = data.filter((p) => ( (p.category === product.category) && (p.id !== product.id) ));
     setRelatedItems([...related]);
-  },[id, relatedItems])
+  },[id, product.category])
+
+
+  const handleAddToCart = () => {
+    const addItem = {
+      key: uuidv4(),
+      item: product,
+    }
+    setCartProducts([...cartProducts, addItem])
+    console.log(cartProducts);
+    
+    setCartQuantity(cartQuantity + 1)
+  }
   
   return (
   <div className='py-24 flex justify-center'>
@@ -39,10 +54,10 @@ function ProductDetail() {
                 Shelf Life : {product.shelfLife}
               </li>
               <li>
-                Manufacturer Name : dsf
+                {/* Manufacturer Name : {product.manufacturer.name} */}
               </li>
               <li>
-                Manufacturer Address : sdfds
+                {/* Manufacturer Address : {product.manufacturer.address} */}
               </li>
             </ul>
           </div>
@@ -52,7 +67,7 @@ function ProductDetail() {
           <div className='flex items-center space-x-2 text-xs mb-2 text-stone-500'>
             <Link to={'/'}>Home</Link>
             <span>&gt;</span>
-            <Link to={''}>{product.category}</Link>
+            <Link to={`/category/${product.category}`}>{product.category}</Link>
           </div>
           <div className='mb-1 text-2xl font-semibold'>{product.name}</div>
           <div className='mb-5 text-sm  text-stone-500'>{product.variant}</div>
@@ -60,7 +75,7 @@ function ProductDetail() {
             <span>&#8377;{product.price}</span>
             <span className='line-through text-lg font-normal'>&#8377;{product.marketPrice}</span>
           </div>
-          <button className='my-8 bg-rose-500 text-white py-2 px-10 rounded font-medium'>Add</button>
+          <button className='my-8 bg-rose-500 text-white py-2 px-10 rounded font-medium' onClick={() => handleAddToCart()}>Add</button>
 
           <hr className='my-10 border rounded'/>
 

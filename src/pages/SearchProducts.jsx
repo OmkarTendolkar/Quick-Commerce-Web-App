@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { data } from '../assets/data'
 import Card from '../components/Card'
 import { useParams } from 'react-router-dom'
@@ -26,7 +26,6 @@ function SearchProducts() {
     const filter = defaultData.filter((product) => (product.price >= lowPrice) && (product.price <= highPrice))
     setUpdatedData([...filter]);
   }
-  
 
   return (
     <>

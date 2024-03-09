@@ -1,23 +1,17 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Root from './Root.jsx'
-import Home from './pages/Home.jsx'
-import ProductDetail from './pages/ProductDetail.jsx'
-import Cart from './pages/Cart.jsx'
-import { data } from './assets/data.js'
+import { Root, Home, ProductDetail, Cart, FilterProduct, SearchProducts } from './index.js'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import FilterProduct from './pages/FilterProduct.jsx'
-import SearchProducts from './pages/SearchProducts.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Root data={data} />,
+    element: <Root />,
     children: [
       {
         path: '',
-        element: <Home/>,
+        element: <Home />,
       },
       {
         path: 'product-detail/:id',

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { data } from '../assets/data'
 import Card from '../components/Card';
 import { useParams } from 'react-router-dom'
@@ -6,8 +6,6 @@ import { useParams } from 'react-router-dom'
 function FilterProduct() {
   const {category} = useParams();
   const [filterProducts, setFilterProducts] = useState(data);
-
-
   
   useEffect(() => {
     resetFilter();
@@ -23,7 +21,6 @@ function FilterProduct() {
     const filter = data.filter((product) => product.category === category);
     setFilterProducts([...filter]);
   }
-  
   
   return (
     <>

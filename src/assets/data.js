@@ -13,10 +13,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '25 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Glaxo Smithkline',
-      address: 'Schiffer & Menezes India Pvt Ltd.L-27 Phase Phase Iia Verna Ind. Estate, Verna Salcete, Goa -403 722 India',
-    }
+    manufacturerName: 'Glaxo Smithkline',
+    manufacturerAddress: 'Schiffer & Menezes India Pvt Ltd.L-27 Phase Phase Iia Verna Ind. Estate, Verna Salcete, Goa -403 722 India',
   },
   {
     id: uuidv4(),
@@ -30,10 +28,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '120 days',
     ingredients: '',
-    manufacturer : {
-      name: 'Pepsico India Holdings Private Limited',
-      address: 'Pepsico India Holdings Private Limited, Tower-A4th Floor, Mehrauli Gurgaon Road, Gurgaon City, Gurgaon - 122001.',
-    }
+    manufacturerName: 'Pepsico India Holdings Private Limited',
+    manufacturerAddress: 'Pepsico India Holdings Private Limited, Tower-A4th Floor, Mehrauli Gurgaon Road, Gurgaon City, Gurgaon - 122001.',
   },
   {
     id: uuidv4(),
@@ -47,10 +43,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '24 months',
     ingredients: '',
-    manufacturer : {
-      name: 'TCPL',
-      address: '',
-    }
+    manufacturerName: 'TCPL',
+    manufacturerAddress: '',
   },
   {
     id: uuidv4(),
@@ -64,10 +58,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '150 days',
     ingredients: '',
-    manufacturer : {
-      name: 'Parle Products Pvt. Ltd',
-      address: 'Parle Products Pvt. Ltd, V.S. Khandekar Marg, Vile Parle East Mumbai - 400057, Maharashtra.',
-    }
+    manufacturerName: 'Parle Products Pvt. Ltd',
+    manufacturerAddress: 'Parle Products Pvt. Ltd, V.S. Khandekar Marg, Vile Parle East Mumbai - 400057, Maharashtra.',
   },
   {
     id: uuidv4(),
@@ -81,10 +73,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '18 months',
     ingredients: 'Sugar, Salt, Caramel (Natural Colour, E150c), Soybeans(10%), Wheat, Acetic Acid (Acidifying Agent, E260), Guar Gum (Stabilizing and Emulsifying Agent, E412), Sodium Benzoate (Preservative, E211).',
-    manufacturer : {
-      name: 'Capital Foods Pvt. Ltd.',
-      address: 'VILLA CAPITAL, Sadhana Compound, Oshiwara Bridge, S.V Road, Jogeshwari (West), Mumbai- 400 102. India',
-    }
+    manufacturerName: 'Capital Foods Pvt. Ltd.',
+    manufacturerAddress: 'VILLA CAPITAL, Sadhana Compound, Oshiwara Bridge, S.V Road, Jogeshwari (West), Mumbai- 400 102. India.',
   },
   {
     id: uuidv4(),
@@ -98,10 +88,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '121 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Universal Corporation Ltd',
-      address: '',
-    }
+    manufacturerName: 'Universal Corporation Ltd',
+    manufacturerAddress: '',
   },
   {
     id: uuidv4(),
@@ -115,10 +103,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '24 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Hindustan Unilever Ltd',
-      address: 'Hindustan Unilever Limited, Unilever House, B D Sawant Marg, Chakala, Anderi E, Mumbai - 400099.',
-    }
+    manufacturerName: 'Hindustan Unilever Ltd',
+    manufacturerAddress: 'Hindustan Unilever Limited, Unilever House, B D Sawant Marg, Chakala, Anderi E, Mumbai - 400099.',
   },
   {
     id: uuidv4(),
@@ -132,10 +118,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '12 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Mars International India Pvt Ltd',
-      address: 'Mars International India Pvt. Ltd.9 B 10Th Floor, Dlf City Phase 3, Gurgaon - 122010.',
-    }
+    manufacturerName: 'Mars International India Pvt Ltd',
+    manufacturerAddress: 'Mars International India Pvt. Ltd.9 B 10Th Floor, Dlf City Phase 3, Gurgaon - 122010.',
   },
   {
     id: uuidv4(),
@@ -149,10 +133,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '15 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Hindustan Unilever Limited',
-      address: 'Hindustan Unilever Limited, Unilever House, B D Sawant Marg, Chakala, Andheri E, Mumbai - 400099.',
-    }
+    manufacturerName: 'Hindustan Unilever Limited',
+    manufacturerAddress: 'Hindustan Unilever Limited, Unilever House, B D Sawant Marg, Chakala, Andheri E, Mumbai - 400099.',
   },
   {
     id: uuidv4(),
@@ -166,10 +148,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '6 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Hindustan Coca-Cola Beverages Pvt. Ltd',
-      address: 'Hindustan Coca Cola Beverages Pvt Ltd, Plot No 18, Bidadi Industrial Area, Bidadi Hobli, Bangalore Rural, Karnataka - 562109.',
-    }
+    manufacturerName: 'Hindustan Coca-Cola Beverages Pvt. Ltd',
+    manufacturerAddress: 'Hindustan Coca Cola Beverages Pvt Ltd, Plot No 18, Bidadi Industrial Area, Bidadi Hobli, Bangalore Rural, Karnataka - 562109.',
   },
   {
     id: uuidv4(),
@@ -183,10 +163,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '24 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Procter & Gamble',
-      address: 'Procter & Gamble, Plot No. 1, Industrial Area,Village Katha, Baddi, Dist Solan, Himachal Pradesh - 173 205b. SY 280, Penjerla Village, Kothur Mandal, Ranga Reddy District,Telangana - 509 228.',
-    }
+    manufacturerName: 'Procter & Gamble',
+    manufacturerAddress: 'Procter & Gamble, Plot No. 1, Industrial Area,Village Katha, Baddi, Dist Solan, Himachal Pradesh - 173 205b. SY 280, Penjerla Village, Kothur Mandal, Ranga Reddy District,Telangana - 509 228.',
   },
   {
     id: uuidv4(),
@@ -200,10 +178,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '74 days',
     ingredients: '',
-    manufacturer : {
-      name: 'Parag Milk Foods Ltd',
-      address: 'Parag Milk Foods Ltd, 20th Flr, Nirmal Building, Nariman Point, Mumbai 400021.',
-    }
+    manufacturerName: 'Parag Milk Foods Ltd',
+    manufacturerAddress: 'Parag Milk Foods Ltd, 20th Flr, Nirmal Building, Nariman Point, Mumbai 400021.',
   },
   {
     id: uuidv4(),
@@ -217,10 +193,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '37 months',
     ingredients: 'Sorbitol, Silica, Sodium Lauryl Sulphate, Cocamidopropl Betaine, Flavour, Polyethylene Glycol 600, Sodium Carboxymethyl Cellulose, Sodium Saccharin, Sodium Flouride, White Film, Eugenol, CI 74160, In Aqueous Base.',
-    manufacturer : {
-      name: 'Colgate Palmolive India Ltd',
-      address: 'Colgate Research Centre, Main Street, Hiranandani Gardens, Mumbai-400076, Maharashtra.',
-    }
+    manufacturerName: 'Colgate Palmolive India Ltd',
+    manufacturerAddress: 'Colgate Research Centre, Main Street, Hiranandani Gardens, Mumbai-400076, Maharashtra.',
   },
   {
     id: uuidv4(),
@@ -234,10 +208,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '41 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Reckitt Benckiser',
-      address: 'Reckitt Benckiser, RB Consumer Care PO Box No. 13, Head Post Office, Sadar Bazar, Gurugram � 122001, Haryana, India.',
-    }
+    manufacturerName: 'Reckitt Benckiser',
+    manufacturerAddress: 'Reckitt Benckiser, RB Consumer Care PO Box No. 13, Head Post Office, Sadar Bazar, Gurugram � 122001, Haryana, India.',
   },
   {
     id: uuidv4(),
@@ -251,10 +223,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '7 months',
     ingredients: 'NOODLES: Refined wheat flour (Maida), Palm oil, Iodised salt, Thickners (412 & 508), Humectant (451(i)) and Acidity regulators (501(i), 500 (i)) & 330). TASTEMAKER: Mixed spices (18.4%), Dehydrated vegetables (14.4%) (Carrot flakes (7.5%), Green peas ( 6.9% )), Sugar, Starch, Iodized salt, Nature identical flavouring substance, Tomato paste ( 5.6% ), Toasted onion flakes ( 4.7% ), Refined wheat flour (Maida), Roasted garlic flakes, Thickeners (508 & 415), Onion powder ( 2.8% ), Palm oil, Herbs, Natural flavouring substances, Yeast extract powder, Flavour enhancer (635), Tamarind powder, Acidity regulator (330) & Wheat gluten. Contains Wheat. May contains milk, oats & soy.',
-    manufacturer : {
-      name: 'Nestle India Ltd',
-      address: 'Nestle India Ltd, Nestle House, Jacaranda Marg M Block, DLF City Phase II, National Highway 8, Gurgaon 122 002, India.',
-    }
+    manufacturerName: 'Nestle India Ltd',
+    manufacturerAddress: 'Nestle India Ltd, Nestle House, Jacaranda Marg M Block, DLF City Phase II, National Highway 8, Gurgaon 122 002, India.',
   },
   {
     id: uuidv4(),
@@ -268,10 +238,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '36 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Amazon',
-      address: '',
-    }
+    manufacturerName: 'Amazon',
+    manufacturerAddress: '',
   },
   {
     id: uuidv4(),
@@ -285,10 +253,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '30 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Kapco International Ltd',
-      address: 'Kapco International Ltd, Plot no. 11, Sector-3, Parwanoo, Himachal Pradesh- 173220, India.',
-    }
+    manufacturerName: 'Kapco International Ltd',
+    manufacturerAddress: 'Kapco International Ltd, Plot no. 11, Sector-3, Parwanoo, Himachal Pradesh- 173220, India.',
   },
   {
     id: uuidv4(),
@@ -302,10 +268,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '12 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Gujarat Co-Operative Milk Marketing Federation',
-      address: 'Gujarat Co-Operative Milk Marketing Federation, Po Box 10, Amul Dairy Road, Anand 388 001, Gujarat, India.',
-    }
+    manufacturerName: 'Gujarat Co-Operative Milk Marketing Federation',
+    manufacturerAddress: 'Gujarat Co-Operative Milk Marketing Federation, Po Box 10, Amul Dairy Road, Anand 388 001, Gujarat, India.',
   },
   {
     id: uuidv4(),
@@ -319,10 +283,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '6 days',
     ingredients: 'Whole Wheat Flour (Atta) 52%, Legumes Seeds, Rolled Oats, Ragi Flour, Wheat Bran, Yeast, Sugar, Iodised Salt, Preservative, Improvers, Acidity Regulator, Vitamins',
-    manufacturer : {
-      name: 'Britannia Industries Limited',
-      address: 'Bangalore - Prestige Shantiniketan, Tower C, The Business Precinct, 16th & 17th Floor, Whitefield Main Road, Mahadevapura Post, Bangalore - 560 048.',
-    }
+    manufacturerName: 'Britannia Industries Limited',
+    manufacturerAddress: 'Bangalore - Prestige Shantiniketan, Tower C, The Business Precinct, 16th & 17th Floor, Whitefield Main Road, Mahadevapura Post, Bangalore - 560 048.',
   },
   {
     id: uuidv4(),
@@ -336,10 +298,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '24 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Reckitt Benckiser',
-      address: 'Reckitt Benckiser, RB Consumer Care PO Box No. 13, Head Post Office, Sadar Bazar, Gurugram - 122001, Haryana, India.',
-    }
+    manufacturerName: 'Reckitt Benckiser',
+    manufacturerAddress: 'Reckitt Benckiser, RB Consumer Care PO Box No. 13, Head Post Office, Sadar Bazar, Gurugram - 122001, Haryana, India.',
   },
   {
     id: uuidv4(),
@@ -353,10 +313,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '6 months',
     ingredients: 'White Poha Flakes',
-    manufacturer : {
-      name: 'Balaji Agro Products Pvt.Ltd',
-      address: '',
-    }
+    manufacturerName: 'Balaji Agro Products Pvt.Ltd',
+    manufacturerAddress: '',
   },
   {
     id: uuidv4(),
@@ -370,10 +328,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '24 months',
     ingredients: '',
-    manufacturer : {
-      name: 'KRBL Ltd',
-      address: 'KRBL Ltd, C-32, 5th Floor, Sector-62, Noida, Uttar Pradesh-201301',
-    }
+    manufacturerName: 'KRBL Ltd',
+    manufacturerAddress: 'KRBL Ltd, C-32, 5th Floor, Sector-62, Noida, Uttar Pradesh-201301',
   },
   {
     id: uuidv4(),
@@ -387,10 +343,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '24 months',
     ingredients: 'Basmati Rice',
-    manufacturer : {
-      name: 'L T Foods Limited',
-      address: 'L T Foods Limited, 43 milestone, GT road, Nahalgarh, Sonipat, Haryana. 131021.',
-    }
+    manufacturerName: 'L T Foods Limited',
+    manufacturerAddress: 'L T Foods Limited, 43 milestone, GT road, Nahalgarh, Sonipat, Haryana. 131021.',
   },
   {
     id: uuidv4(),
@@ -404,10 +358,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '120 days',
     ingredients: 'Corn Meal (52.6%), Edible Vegetable Oil (Palmolein Oil), Rice Meal (13.5%), Sugar, Gram Meal (3.5%), Salt, *Spices & Condiments (Onion Powder, Chilli Powder, Garlic Powder, Black Pepper Powder), Milk Solids, Calcium Carbonate (Ins 170(I)), Fructose, Cheese Powder (0.2%), Citric Acid (Ins 330).',
-    manufacturer : {
-      name: 'Pepsico India Holdings Private Limited',
-      address: 'Pepsico India Holdings Private Limited, Level 3-5,Pioneer Square, Sector 62, Near Golf Course Extension Road,Gurugram-122101, Haryana,India.',
-    }
+    manufacturerName: 'Pepsico India Holdings Private Limited',
+    manufacturerAddress: 'Pepsico India Holdings Private Limited, Level 3-5,Pioneer Square, Sector 62, Near Golf Course Extension Road,Gurugram-122101, Haryana,India.',
   },
   {
     id: uuidv4(),
@@ -421,10 +373,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '36 months',
     ingredients: '',
-    manufacturer : {
-      name: 'GEBI PRODUCTS PRIVATE LIMITED',
-      address: '',
-    }
+    manufacturerName: 'GEBI PRODUCTS PRIVATE LIMITED',
+    manufacturerAddress: '',
   },
   {
     id: uuidv4(),
@@ -438,10 +388,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '25 months',
     ingredients: '',
-    manufacturer : {
-      name: '3M India',
-      address: '3M India Limited, 48-51, Electronic City, Hosur Road, Benagaluru, 560100.',
-    }
+    manufacturerName: '3M India',
+    manufacturerAddress: '3M India Limited, 48-51, Electronic City, Hosur Road, Benagaluru, 560100.',
   },
   {
     id: uuidv4(),
@@ -455,10 +403,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '23 months',
     ingredients: 'Coffee Beans',
-    manufacturer : {
-      name: 'Nestle India Limited',
-      address: 'Nestle India Limited, 100/101, World Trade Centre, Barakhamba Lane, New Delhi',
-    }
+    manufacturerName: 'Nestle India Limited',
+    manufacturerAddress: 'Nestle India Limited, 100/101, World Trade Centre, Barakhamba Lane, New Delhi',
   },
   {
     id: uuidv4(),
@@ -472,10 +418,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '90 days',
     ingredients: '',
-    manufacturer : {
-      name: 'BISLERI INTERNATIONAL PVT LTD',
-      address: 'BISLERI INTERNATIONAL PVT LTD, 29/33, UDAYAGIRI VILLAGE, DEVANAHALLI, BANGALORE-562110',
-    }
+    manufacturerName: 'BISLERI INTERNATIONAL PVT LTD',
+    manufacturerAddress: 'BISLERI INTERNATIONAL PVT LTD, 29/33, UDAYAGIRI VILLAGE, DEVANAHALLI, BANGALORE-562110',
   },
   {
     id: uuidv4(),
@@ -489,10 +433,8 @@ export const  data = [
     origin: 'Turkey',
     shelfLife: '12 months',
     ingredients: 'Refined Wheat Flour (maida), Edible Starch, Edible Vegetable Oil(palm Olein Oil), Spices & Condiments (onion Powder, Ginger Powder, Coriander Powder, Red Chilli Powder, Garlic Powder, Cumin Powder, Turmeric Powder, Dried Mango Powder, Black Pepper Powder, Spices Extract), Sugar Powder, Edible Common Salt, Maltodextrin, Acidity Regulator',
-    manufacturer : {
-      name: 'Ferrero Ind',
-      address: '',
-    }
+    manufacturerName: 'Ferrero Ind',
+    manufacturerAddress: '',
   },
   {
     id: uuidv4(),
@@ -613,23 +555,23 @@ export const  data = [
       address: '',
     }
   },
-  /* {
+  {
     id: uuidv4(),
-    name: '',
-    category: '',
-    image: '',
-    variant: '',
-    price: ,
-    marketPrice: ,
-    description: '',
-    origin: '',
-    shelfLife: '',
+    name: 'Microfiber Cleaning Duster, Assorted Colour, 30 Inch Length',
+    category: 'home-utility-and-organiser',
+    image: 'https://cdn.zeptonow.com/production///tr:w-450,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/0d41774a-e4eb-4c5e-8914-87b0278a7f98.jpeg',
+    variant: '1 piece',
+    price: 131,
+    marketPrice: 139,
+    description: 'NA',
+    origin: 'China',
+    shelfLife: '36 months',
     ingredients: '',
     manufacturer : {
       name: '',
       address: '',
     }
-  }, */
+  },
   {
     id: uuidv4(),
     name: 'Pringles Sour Cream And Onion Potato Crisps',

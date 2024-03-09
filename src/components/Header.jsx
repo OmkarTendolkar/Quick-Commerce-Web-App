@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import { useContext, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { CartContext } from '../context/CartContext';
 
@@ -16,16 +16,12 @@ function Header() {
     <header>
       <div className='bg-slate-50  border-b-[1px]   mb-1 fixed top-0 left-0 right-0 z-10'>
         <div className='h-[60px] flex items-center justify-between'>
-          <div className='flex ml-10 mr-5'>
-            <Link to={'/'}>
-              <img className='mt-2  mr-5' src="" alt="" />
-            </Link>
-
-            <div className='leading-6'>
-              <div className='fo font-bold'>Delivery in <span className='text-purple-700'>10 Mins</span></div>
-              <div className='text- text-xs'>Mumbai, Maharashtra</div>
+          <Link to={'/'}>
+            <div className='flex items-center ml-4' to={'/'}>
+              <img className='h-[50px]' src="images/logo.png" alt="" />
+              <div className='text-xl font-semibold'>Quick Mart</div>
             </div>
-          </div>
+          </Link>
             
           <div className='flex w-[800px]'>
             <input className='flex-1 h-10 border p-4 rounded shadow-inner' type="search" value={query} placeholder='What you need ?' onChange={handleInputChange}/>
@@ -36,8 +32,8 @@ function Header() {
             <img className='h-8 ' src="https://cdn.iconscout.com/icon/free/png-256/free-user-533-130265.png?f=webp&w=128" alt="" />
             <Link to={'/cart'}>
               <div className='relative'>
-                <img className='h-8 ' src="https://cdn.iconscout.com/icon/free/png-256/free-cart-1772442-1508338.png?f=webp&w=128" alt="" />
-                <div className='bg-amber-300 px-[6px] py-[1px] text-xs text-center font-medium rounded-full absolute top-[-5px] right-[-5px]'>{cartQuantity}</div>
+                <img className='h-8 ' src="https://cdn.iconscout.com/icon/free/png-256/free-cart-1772442-1508338.png?f=webp&w=128" alt=" " />
+                {(cartQuantity) ? <div className='bg-amber-300 px-[6px] py-[1px] text-xs text-center font-medium rounded-full absolute top-[-5px] right-[-5px]'>{cartQuantity}</div> : ''}
               </div>
             </Link>
           </div>

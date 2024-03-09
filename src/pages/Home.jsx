@@ -1,4 +1,3 @@
-import React from 'react'
 import Card from '../components/Card.jsx';
 import { Link } from 'react-router-dom';
 import { data } from '../assets/data.js';
@@ -7,7 +6,7 @@ function Home() {
 
   return (
     <div className='py-28 flex justify-center'>
-      <div className='flex flex-col items-center w-[1300px] border-black border'>
+      <div className='flex flex-col items-center w-[1300px] '>
         <Link to="">
           <img className='p-4 overflow-hidden rounded-3xl' src="images/adv-banner.webp" alt="adv-banner" />
         </Link>
