@@ -448,10 +448,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '6 days',
     ingredients: 'Refined Wheat Flour Maida, Yeast, Sugar, Virtual Gluten, Iodised Salt, Preservative, Improvers, Acidity Regulator, Vitamins',
-    manufacturer : {
-      name: 'Britannia Industries Limited',
-      address: 'Bangalore - Prestige Shantiniketan, Tower C, The Business Precinct, 16th & 17th Floor, Whitefield Main Road, Mahadevapura Post, Bangalore - 560 048.',
-    }
+    manufacturerName: 'Britannia Industries Limited',
+    manufacturerAddress: 'Bangalore - Prestige Shantiniketan, Tower C, The Business Precinct, 16th & 17th Floor, Whitefield Main Road, Mahadevapura Post, Bangalore - 560 048.',
   },
   {
     id: uuidv4(),
@@ -465,10 +463,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '24 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Philips',
-      address: '',
-    }
+    manufacturerName: 'Philips',
+    manufacturerAddress: '',
   },
   {
     id: uuidv4(),
@@ -482,10 +478,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '12 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Adani Wilmar Limited',
-      address: 'Adani Wilmar Limited, Adani Corporate House, Shantigram, Near Vaishnodevi Circle, S G Highway, Ahmedabad-382421, Gujarat, India.',
-    }
+    manufacturerName: 'Adani Wilmar Limited',
+    manufacturerAddress: 'Adani Wilmar Limited, Adani Corporate House, Shantigram, Near Vaishnodevi Circle, S G Highway, Ahmedabad-382421, Gujarat, India.',
   },
   {
     id: uuidv4(),
@@ -499,10 +493,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '36 months',
     ingredients: '',
-    manufacturer : {
-      name: 'NIVEA India Private Limited',
-      address: 'NIVEA India Private Limited, 4th Floor, A Wing, Art Guild House, Phoenix Market City, Kurla West, Mumbai, Maharashtra 400070',
-    }
+    manufacturerName: 'NIVEA India Private Limited',
+    manufacturerAddress: 'NIVEA India Private Limited, 4th Floor, A Wing, Art Guild House, Phoenix Market City, Kurla West, Mumbai, Maharashtra 400070',
   },
   {
     id: uuidv4(),
@@ -516,10 +508,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '36 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Boat',
-      address: '',
-    }
+    manufacturerName: 'Boat',
+    manufacturerAddress: '',
   },
   {
     id: uuidv4(),
@@ -533,10 +523,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '7 months',
     ingredients: '',
-    manufacturer : {
-      name: 'Parle Products Pvt. Ltd',
-      address: 'Parle Products Pvt. Ltd, V.S. Khandekar Marg, Vile Parle East Mumbai - 400057, Maharashtra.',
-    }
+    manufacturerName: 'Parle Products Pvt. Ltd',
+    manufacturerAddress: 'Parle Products Pvt. Ltd, V.S. Khandekar Marg, Vile Parle East Mumbai - 400057, Maharashtra.',
   },
   {
     id: uuidv4(),
@@ -550,10 +538,8 @@ export const  data = [
     origin: '',
     shelfLife: '',
     ingredients: '',
-    manufacturer : {
-      name: '',
-      address: '',
-    }
+    manufacturerName: '',
+    manufacturerAddress: '',
   },
   {
     id: uuidv4(),
@@ -567,10 +553,8 @@ export const  data = [
     origin: 'China',
     shelfLife: '36 months',
     ingredients: '',
-    manufacturer : {
-      name: '',
-      address: '',
-    }
+    manufacturerName: '',
+    manufacturerAddress: '',
   },
   {
     id: uuidv4(),
@@ -584,10 +568,8 @@ export const  data = [
     origin: 'India',
     shelfLife: '12 months',
     ingredients: 'Dried Potato, Edible Oil',
-    manufacturer : {
-      name: 'Kellogg\'s India Pvt. Ltd',
-      address: 'Kellogg\'s India Pvt. Ltd, 1001-1002, 10th Floor, Hiranandani Knowledge Park Powai Mumbai, Maharashtra, 400076.',
-    }
+    manufacturerName: 'Kellogg\'s India Pvt. Ltd',
+    manufacturerAddress: 'Kellogg\'s India Pvt. Ltd, 1001-1002, 10th Floor, Hiranandani Knowledge Park Powai Mumbai, Maharashtra, 400076.',
   },
   {
     id: uuidv4(),
@@ -601,9 +583,7 @@ export const  data = [
     origin: 'India',
     shelfLife: '3 days',
     ingredients: 'Standardized Milk, Vitamin A&D',
-    manufacturer : {
-      name: 'Gujarat Co-Operative Milk Marketing Federation',
-      address: 'Gujarat Co-Operative Milk Marketing Federation, Po Box 10, Amul Dairy Road, Anand 388 001, Gujarat, India.',
-    }
+    manufacturerName: 'Gujarat Co-Operative Milk Marketing Federation',
+    manufacturerAddress: 'Gujarat Co-Operative Milk Marketing Federation, Po Box 10, Amul Dairy Road, Anand 388 001, Gujarat, India.',
   },
 ]

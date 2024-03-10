@@ -54,10 +54,10 @@ function ProductDetail() {
                 Shelf Life : {product.shelfLife}
               </li>
               <li>
-                {/* Manufacturer Name : {product.manufacturer.name} */}
+                Manufacturer Name : {product.manufacturerName}
               </li>
               <li>
-                {/* Manufacturer Address : {product.manufacturer.address} */}
+                Manufacturer Address : {product.manufacturerAddress}
               </li>
             </ul>
           </div>

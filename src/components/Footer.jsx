@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Logo from '../assets/logo.png'
 
 function Footer() {
   return (
@@ -23,7 +24,7 @@ function Footer() {
             <div>
               <Link to={'/'}>
                 <div className='flex items-center' to={'/'}>
-                  <img className='h-[50px]' src="images/logo.png" alt="" />
+                  <img className='h-[50px]' src={Logo} alt="" />
                   <div className='text-xl font-semibold'>Quick Mart</div>
                 </div>
               </Link>

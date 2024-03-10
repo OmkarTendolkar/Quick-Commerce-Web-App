@@ -1,6 +1,7 @@
 import { useContext, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { CartContext } from '../context/CartContext';
+import Logo from '../assets/logo.png'
 
 function Header() {
   const [query, setQuery] = useState('')
@@ -18,7 +19,7 @@ function Header() {
         <div className='h-[60px] flex items-center justify-between'>
           <Link to={'/'}>
             <div className='flex items-center ml-4' to={'/'}>
-              <img className='h-[50px]' src="images/logo.png" alt="" />
+              <img className='h-[50px]' src={Logo} alt="" />
               <div className='text-xl font-semibold'>Quick Mart</div>
             </div>
           </Link>

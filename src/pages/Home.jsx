@@ -5,7 +5,7 @@ import { data } from '../assets/data.js';
 function Home() {
 
   return (
-    <div className='py-28 flex justify-center'>
+    <div className='py-24 flex justify-center'>
       <div className='flex flex-col items-center w-[1300px] '>
         <Link to="">
           <img className='p-4 overflow-hidden rounded-3xl' src="images/adv-banner.webp" alt="adv-banner" />
